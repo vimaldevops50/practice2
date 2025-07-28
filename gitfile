@@ -1,0 +1,4 @@
+  backend "s3" {
+    bucket = "sais3bucket236"
+    key    = "dev-modules.tfstate"
+    region = "us-east-2"
