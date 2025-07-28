@@ -1,4 +1,8 @@
   backend "s3" {
     bucket = "sais3bucket236"
     key    = "dev-modules.tfstate"
-    region = "us-east-2"
+    region = "us-east-1a"
+backend "s3" {
+    bucket = "sais3bucket236"
+    key    = "dev-modules.tfstate"
+    region = "us-east-1a"
